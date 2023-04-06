@@ -30,3 +30,5 @@ int main()
             A[i][j] = '?'; 
             cout << A[i][j] << " ";
         }
+        cout << endl;
+    }
