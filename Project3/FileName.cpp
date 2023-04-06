@@ -18,3 +18,8 @@ int main()
     getline(cin, name1);
     cout << "Введите имя второго игрока: ";
     getline(cin, name2);
+    cout << "За кого ходит первый игрок?(введите цифру):" << endl;
+    cout << "0: 1" << endl;
+    cout << "X: 2" << endl;
+    cout << "Цифра: ";
+    cin >> dgt;
