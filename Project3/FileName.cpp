@@ -65,3 +65,4 @@ int main()
         if ((i % 2) && (dgt == 1)) A[x][y] = c;
         if ((i % 2) && (dgt == 2)) A[x][y] = z;
         system("cls");
+        k = 0;
