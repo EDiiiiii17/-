@@ -58,3 +58,5 @@ int main()
                 cout << endl;
             }
             cout << "Данная позиция занята!" << endl;
+            goto mylabel;
+        }
