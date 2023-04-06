@@ -60,3 +60,7 @@ int main()
             cout << "Данная позиция занята!" << endl;
             goto mylabel;
         }
+        if ((!(i % 2)) && (dgt == 1)) A[x][y] = z;
+        if ((!(i % 2)) && (dgt == 2)) A[x][y] = c;
+        if ((i % 2) && (dgt == 1)) A[x][y] = c;
+        if ((i % 2) && (dgt == 2)) A[x][y] = z;
