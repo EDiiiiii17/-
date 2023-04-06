@@ -44,3 +44,5 @@ int main()
         cin >> x;
         cout << "Столбец: ";
         cin >> y;
+        x--;
+        y--;
