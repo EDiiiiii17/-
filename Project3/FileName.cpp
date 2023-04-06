@@ -93,3 +93,7 @@ int main()
         {
             k++;
             cout << "Игра закончена! ";
+            if ((A[x][y] == z) && (dgt == 1)) cout << name1 << " победил(a)!" << endl;
+            if ((A[x][y] == c) && (dgt == 2)) cout << name1 << " победил(а)!" << endl;
+            if ((A[x][y] == c) && (dgt == 1)) cout << name2 << " победил(а)!" << endl;
+            if ((A[x][y] == z) && (dgt == 2)) cout << name2 << " победил(а)!" << endl;
