@@ -38,3 +38,4 @@ int main()
         if ((!(i % 2)) && (dgt == 2)) s = b;
         if ((i % 2) && (dgt == 1)) s = b;
         if ((i % 2) && (dgt == 2)) s = a;
+    mylabel:
