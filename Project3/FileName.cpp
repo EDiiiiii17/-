@@ -34,3 +34,7 @@ int main()
     }
     for (int i = 0; i < 9; i++)
     {
+        if ((!(i % 2)) && (dgt == 1)) s = a;
+        if ((!(i % 2)) && (dgt == 2)) s = b;
+        if ((i % 2) && (dgt == 1)) s = b;
+        if ((i % 2) && (dgt == 2)) s = a;
