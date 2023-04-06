@@ -27,4 +27,6 @@ int main()
     {
         for (int j = 0; j < N; j++)
         {
-            A[i][j] = '?';
+            A[i][j] = '?'; 
+            cout << A[i][j] << " ";
+        }
