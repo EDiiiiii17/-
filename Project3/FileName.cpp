@@ -9,3 +9,7 @@ int main()
     int x, y, k, dgt;
     char A[N][N], c, z;
     string s, a, b, name1, name2;
+    a = "ÍÎËÈÊÈ";
+    b = "ÊĞÅÑÒÈÊÈ";
+    z = '0';
+    c = 'X';
