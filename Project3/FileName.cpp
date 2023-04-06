@@ -46,3 +46,5 @@ int main()
         cin >> y;
         x--;
         y--;
+        if (A[x][y] != '?')
+        {
